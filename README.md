@@ -2,7 +2,7 @@
 Stack Overflow answer to question: https://stackoverflow.com/questions/64962006/literally-started-learning-coding-from-free-sources-and-already-ran-into-issues/64962232#64962232
 
 
-```rice = 1000000
+```price = 1000000
 
 scores = {"good_credit":(10/100* price),"bad_credit":(10/100* price )}
 
