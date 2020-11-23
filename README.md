@@ -2,7 +2,8 @@
 Stack Overflow answer to question: https://stackoverflow.com/questions/64962006/literally-started-learning-coding-from-free-sources-and-already-ran-into-issues/64962232#64962232
 
 
-```price = 1000000
+```
+price = 1000000
 
 scores = {"good_credit":(10/100* price),"bad_credit":(10/100* price )}
 
@@ -12,7 +13,8 @@ poor_credit = price - scores["bad_credit"]
 if awesome_credit:
   print(f'Good Credit Final Price: ${price - scores["good_credit"]}')
 elif poor_credit:
-  print(f'Poor Credit Final Price: ${price - scores["bad_credit"]}') ```
+  print(f'Poor Credit Final Price: ${price - scores["bad_credit"]}') 
+  ```
   
   
 Personally this is how I would do it, you can't convert a string to a float, in your first variable declaration you have price = "1000000" , any value between double quotes or single quotes is a string, you don't actually need to force it to be a float at all, math preformed on numbers is allowed. You also don't need to round the credit values unless you wanted to.
